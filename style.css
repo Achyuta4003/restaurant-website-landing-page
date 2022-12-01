@@ -22,7 +22,7 @@ html{
   top: 0rem;
   height: max-content;
   width: 100vw;
-  background-image: url(/img/bg-nav.jpg);
+  background-image: url(./img/bg-nav.jpg);
   background-size: cover;
   position: fixed;
 }
@@ -69,12 +69,12 @@ header .logo {
 }
 
 .home_Container {
-  background-image: url(/img/bg-home1.jpg);
+  background-image: url(./img/bg-home1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 .home_large_contentBox {
-  background-image: url(/img/bg-home2.jpg);
+  background-image: url(./img/bg-home2.jpg);
   background-size: cover;
   height: max-content;
   width: 70vw;
@@ -118,7 +118,7 @@ header .logo {
 /* Menu css */
 .parallax {
   /* The image used */
-  background-image: url("/img/bg-nav.jpg");
+  background-image: url("./img/bg-nav.jpg");
 
   /* Set a specific height */
   min-height: max-content;
@@ -134,7 +134,7 @@ header .logo {
 
 /* menu box css */
 .menu {
-  background-image: url(/img/menubar_bg.jpg);
+  background-image: url(./img/menubar_bg.jpg);
   background-size: cover;
   height: 54.4rem;
   width: 100vw;
