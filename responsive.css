@@ -1,0 +1,101 @@
+@media screen and (max-width: 1300px){
+    html{
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 1200px){
+    html{
+        font-size: 50%;
+    }
+}
+@media screen and (max-width: 1068px){
+    html{
+        font-size: 45%;
+
+    }
+
+    .photo {
+        height: 15.7rem;
+        width: 15.7rem;
+        border: .1rem solid #999;
+        margin: .2rem;
+      }
+}
+@media screen and (max-width: 900px){
+    html{
+        font-size: 40%;
+
+    }
+    
+    .large_content_Box {
+        width: 90vw;
+    }
+    .contact_form{
+        max-width: 90vw;
+    }
+
+    .imgGallery article:nth-last-child(1){
+      display: none;
+    }
+}
+@media screen and (max-width: 696px){
+    html{
+        font-size: 35%;
+
+    }
+
+
+}
+@media screen and (max-width: 615px){
+    .Slider_container{
+        display: none;
+    }
+
+    .medium_ContentBox{
+        width: 60rem;
+        height: 30rem;
+    }
+
+    .ServiceCardsSection{
+        height: max-content;
+        flex-direction: column;
+    }
+    .ServiceCard{
+        height: max-content;
+        width: 60vw;
+        margin:3rem ;
+        font-size: 2.5rem;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 560px){
+    .photo{
+        margin: .8rem 3.2rem;
+    }
+    .imgGallery{
+        justify-content: center;
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+    }
+    .card{
+        width: 21rem;
+    }
+}
+
+
+@media screen and (max-width: 485px){
+    .photo{
+        margin: .8rem 1.2rem;
+    }
+    
+
+    .medium_ContentBox{
+        width: 90vw;
+    }
+}
